@@ -1,0 +1,2 @@
+# General_Encoder_Method
+提供类似multi_button类似方法的一种编码器控制的班级支持包，响应迅速可搭配multi_button使用；
