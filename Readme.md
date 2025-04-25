@@ -6,7 +6,7 @@
 
 | 型号       | 电路实物                                                     | 原理图参考                                                   |
 | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| SIQ-02FVS3 | <img src="img\电路图实物.png" style="zoom:30%;" /> | <img src="D:\1_STM32_Bsp\11_BSP_SIQ-02FVS3\BSP-SIQ\Encoder\img\原理图参考.jpg" style="zoom:33%;" /> |
+| SIQ-02FVS3 | <img src="img\电路图实物.png" style="zoom:30%;" /> | <img src="img\原理图参考.jpg" style="zoom:33%;" /> |
 
 ​	本库的定时器编码器驱动，适用于所有的AB相编码器，通过配置Cubemx，选择tim3，编码器模式，15滤波，单边沿计数，后配置tim4中断，给编码器中断提供一个10ms的时基，就可使用。返回3种键值：EncoderNum=0 不转动 ，  EncoderNum=1向右，  EncoderNum=2向左。
 
@@ -14,13 +14,13 @@
 
 #### 	编码器读取配置
 
-![](D:\1_STM32_Bsp\11_BSP_SIQ-02FVS3\BSP-SIQ\Encoder\img\cubemx1.jpg)
+![](img\cubemx1.jpg)
 
-![](D:\1_STM32_Bsp\11_BSP_SIQ-02FVS3\BSP-SIQ\Encoder\img\cubemx2.jpg)
+![](img\cubemx2.jpg)
 
 #### 	tim4时基函数配置
 
-![](D:\1_STM32_Bsp\11_BSP_SIQ-02FVS3\BSP-SIQ\Encoder\img\tim4.jpg)
+![](img\tim4.jpg)
 
 ### 使用方法
 
