@@ -14,13 +14,13 @@
 
 #### 	编码器读取配置
 
-![](img\cubemx1.jpg)
+![](\img\cubemx1.jpg)
 
-![](img\cubemx2.jpg)
+![](\img\cubemx2.jpg)
 
 #### 	tim4时基函数配置
 
-![](img\tim4.jpg)
+![](\img\tim4.jpg)
 
 ### 使用方法
 
